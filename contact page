@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="projectcontact.css">
+
+
+  <style media="screen">
+  * {
+      box-sizing: border-box;
+      padding: 0;
+  }
+
+  .column {
+      float: left;
+      width: 20%;
+      padding: 10px;
+      height: 300px;
+  }
+  .maincolumn {
+      float: left;
+      width: 60%;
+      padding: 10px;
+      height: 407px;
+  }
+
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  input {
+    width: 100%;
+    height: 30px;
+  }
+  .message {
+    width: 100%;
+    height: 80px;
+  }
+
+
+  .column1 {
+      float: left;
+      width: 14.28%;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      height: 200px;
+  }
+  .list {
+    background-color: #46494d;
+    height: 30px;
+    font-size: 20px;
+    word-spacing: 20px;
+  }
+  .list,ul,a {
+    color: white;
+    text-decoration: none;
+    margin-top: 0;
+    text-align: center;
+  }
+
+
+  .maincolumn h2 {
+    display: inline-block;
+  }
+
+  </style>
+
+
+
+</head>
+<body>
+
+<div class="list">
+  <ul>
+    <a href="project1.html">Home</a>
+    <a href="projectabout.html">About</a>
+    <a href="projectcontact.html">Contact</a>
+  </ul>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:white;">
+
+  </div>
+
+
+  <div class="maincolumn" style="background-color:white;">
+    <h2 style="color:orange">Contact</h2>
+    <h2>Us</h2>
+    <p>please fill out the form below</p>
+    <p>Name</p>
+    <input type="text" name="Name" value="">
+    <p>Email</p>
+    <input type="email" name="email" value="">
+    <p>Message</p>
+    <input type="text" name="message" value="" class="message">
+    <button type="submit" name="submit">Submit</button>
+  </div>
+
+
+  <div class="column" style="background-color:white;">
+
+  </div>
+</div>
+
+
+<div class="last">
+  <div class="column1" style="background-color:#46494d;">
+
+  </div><div class="column1" style="background-color:#46494d;">
+
+  </div><div class="column1" style="background-color:#46494d;">
+    <h2>Location</h2>
+    <p>Lorem ipsum dolor sir amet consecteteur adispiscising alit</p>
+  </div><div class="column1" style="background-color:#46494d;">
+    <h2>Phone Number</h2>
+    <p>(0900)-78601</p>
+  </div><div class="column1" style="background-color:#46494d;">
+    <h2>Email Address</h2>
+    <p>Lorem@hot.com</p>
+  </div><div class="column1" style="background-color:#46494d;">
+
+  </div><div class="column1" style="background-color:#46494d;">
+
+  </div>
+</div>
+
+</body>
+
+</html>
