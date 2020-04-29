@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="projectabout.css">
+
+<style media="screen">
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 180px;
+}
+.column1 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 180px;
+}
+.column2 {
+  float: left;
+  width: 47%;
+  padding: 10px;
+  height: 180px;
+}
+
+
+
+.banner {
+  max-height: 300px;
+  position: relative;
+}
+
+.row1 {
+  text-align: center;
+}
+
+p {
+  height: 50px;
+}
+
+
+.column3 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+}
+.column4 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+}
+.column5 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+}
+ body {
+   margin: 19px;
+   margin-top: 0;
+}
+.list {
+  background-color: #46494d;
+  height: 30px;
+  font-size: 20px;
+  word-spacing: 20px;
+}
+.list,ul,a {
+  color: white;
+  text-decoration: none;
+  margin-top: 0;
+  text-align: center;
+}
+
+.column1 h2 {
+  display: inline-block;
+}
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+
+  <div class="list">
+    <ul>
+      <a href="project1.html">Home</a>
+      <a href="projectabout.html">About</a>
+      <a href="projectcontact.html">Contact</a>
+    </ul>
+  </div>
+
+<div class="row">
+  <div class="column" style="background-color:#bdbcb9;">
+
+  </div>
+  <div class="column1" style="background-color:#bdbcb9;">
+    <h2 style="color:orange">About</h2>
+    <h2> Hotel BT</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adispiscing elit. dolaris laudencium,culpa fugiat,quidem ex,amet,ut dicta totam molitia ea placet eur tenteur qui lusto doloribus iure consectettur ottam dicta?</p>
+  </div>
+  <div class="column2" style="background-color:#bdbcb9;">
+
+  </div>
+</div>
+
+<div class="row1">
+  <div class="banner">
+    <img src="C:\Users\Lenovo\Documents\2rootfolder\test-bg2.jpg" alt="cropped">
+  </div>
+
+  <div class="column3">
+
+  </div>
+  <div class="column4">
+    <h2>What our Guest Say</h2>
+    <p style="background-color:#e8a85f">Lorem ipsum dolor sit amet consectetur adispiscing elit. dolaris laudencium,culpa fugiat,quidem ex,amet,ut dicta totam molitia ea placet eur tenteur qui lusto doloribus iure consectettur ottam dicta?</p>
+    <p style="background-color:#e8a85f">Lorem ipsum dolor sit amet consectetur adispiscing elit. dolaris laudencium,culpa fugiat,quidem ex,amet,ut dicta totam molitia ea placet eur tenteur qui lusto doloribus iure consectettur ottam dicta?</p>
+  </div>
+  <div class="column5">
+
+  </div>
+</div>
+
+</body>
+</html>
